@@ -1,0 +1,379 @@
+/* Base styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 20px 20px;
+    border-radius: 50px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff7f00;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+}
+
+.nav-links a:hover {
+    color: #ff7f00;
+}
+
+/* Section 1 styles */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+}
+
+.hero-text {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #9b501e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 250px;
+}
+
+.read-more:hover {
+    background-color: #e55d00;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-center{
+    text-align: center;
+}
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+/* Section 2 styles */
+.section2 {
+    padding: 50px 20px;
+    background-color: #d0ccc7;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.box li {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #b52e2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #a12626;
+}
+
+.offer {
+    margin-top: 40px;
+}
+
+.offer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.para1 {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.para2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #b52e2e;
+    font-weight: bold;
+}
+
+.para3 {
+    color: #666;
+    font-size: 0.9rem;
+}
+/* Section 3 styles */
+#section3 {
+    padding: 60px 0;
+    background: #3c6570;
+    color: #fff;
+    text-align: center;
+}
+
+#section3 h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#section3 p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+#section3 .testimonial {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#section3 .testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#section3 .testimonial span {
+    display: block;
+    font-weight: bold;
+}
+
+/* Section 4 styles */
+#section4{
+    /* max-width: 80vw; */
+    margin: 0 auto;
+    background-image: url('con2.jpg') ;
+    background-size:contain;
+    /* padding: 50px; */
+    /* background-position: center; */
+    justify-content: flex-end; 
+    min-height: 500px; 
+    overflow: hidden; 
+    box-sizing: border-box; 
+}
+
+.contact{
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 50px 30px 30px 30px;
+        background-color: rgb(211, 211, 219);
+        width: 400px;
+        height: 300px;
+        margin-left: 830px;
+        margin-top: 80px;
+        margin-right: 0px;
+}
+
+.contact h2{
+        text-align: center;
+        margin-bottom: 20px;
+}
+
+.contact form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.contact  input,
+.contact textarea {
+padding: 10px;
+padding-right: 2px;
+border: 1px solid #ccc;
+border-radius: 5px;
+width: 100%;
+}
+
+.btn2{
+    font-size: 15px;
+    padding:7px 30px;
+    margin-top: 32px;
+    margin-left: 150px;
+    border: 2px solid white;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(12, 4, 4);
+}
+
+
+/* Footer styles */
+footer {
+    background: #282c34;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden; 
+    box-sizing: border-box;
+    min-height: 200px;
+}
+.foot ul{
+    list-style: none;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.foot li h2{
+    padding: 10px;
+}
+.end1{
+margin-left: 140px;
+}
+.end1 h2{
+    margin-top: 20px;
+}
+.end2{
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.end3{
+    margin-top: 8px;
+     margin-right: 5px;
+    margin-right: 120px;
+ }   
+ footer p {
+     margin: 0;
+    }
+    
+    .last{
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight: bold;
+    }
+/* Media queries */
+@media (max-width: 767px) {
+    #section2 .feature {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    #section2 .features {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1200px) {
+    #section1 h2 {
+        font-size: 3em;
+    }
+
+    #section2 h2 {
+        font-size: 2.5em;
+    }
+
+    #section3 h2 {
+        font-size: 2.5em;
+    }
+}
